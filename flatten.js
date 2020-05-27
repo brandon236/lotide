@@ -1,3 +1,4 @@
+//I created the flat variable to save the flattened array as well as Array.isArray to check and see if any array element is also an array. 
 const flatten = function(arr) {
   let flat = [];
   for (let i = 0; i < arr.length; i++) {
