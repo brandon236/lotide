@@ -17,7 +17,7 @@ const countLetters = function(string) {
     }
   }
   return results;
-}
+};
 
 console.log(countLetters("lighthouse in the house"));
 console.log(countLetters("the english language uses the letter e quite alot"));
