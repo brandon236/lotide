@@ -21,3 +21,5 @@ const countLetters = function(string) {
 
 console.log(countLetters("lighthouse in the house"));
 console.log(countLetters("the english language uses the letter e quite alot"));
+
+module.exports = countLetters;

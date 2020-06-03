@@ -42,6 +42,15 @@ const ab = { a: "1", b: "2" };
 const ba = { b: "2", a: "1" };
 assertObjectsEqual(ab, ba);
 
+const myObjected = {
+'key-1': 42,
+keyB: 'value B',
+'keyC': [1, 2, 3]
+};
+
+
 const abc = { a: "1", b: "2", c: "3" };
 assertObjectsEqual(ab, abc);
+
+module.exports = assertObjectsEqual;
 

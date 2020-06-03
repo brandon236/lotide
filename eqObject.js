@@ -19,7 +19,7 @@ const eqArrays = function(arr1, arr2) {
   return true;
 };
 
-
+//Started by checking the lengths and then determined if the key values were arrays. If they weren't then I just compared the primative types to see if they were equal and if they weren't then I returned false.
 const eqObjects = function(object1, object2) {
   if (Object.keys(object1).length !== Object.keys(object2).length) {
     return false;
@@ -51,4 +51,4 @@ assertEqual(eqObjects(cd, dc), true);
 const cd2 = { c: "1", d: ["2", 3, 4] };
 assertEqual(eqObjects(cd, cd2), false);
 
-
+module.exports = eqObjects;

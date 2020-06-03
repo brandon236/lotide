@@ -1,0 +1,24 @@
+{
+  "name": "@brandon236/lotide",
+  "version": "1.0.0",
+  "description": "A library that contains various functions. ",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandon236/lotide.git"
+  },
+  "author": "Brandon Macleod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brandon236/lotide/issues"
+  },
+  "homepage": "https://github.com/brandon236/lotide#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}

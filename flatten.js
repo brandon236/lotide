@@ -16,3 +16,5 @@ const flatten = function(arr) {
 console.log(flatten([1,2,[3,4],5,[6]]));
 console.log(flatten([[1],2,3,[4, 3, 4, 1],5]));
 console.log(flatten([["Lighthouse", "Labs"]]));
+
+module.exports = flatten;

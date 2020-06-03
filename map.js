@@ -37,3 +37,4 @@ eqArrays(results2, ["l", "h", "l", "t", "s"]);
 const results3 = map(words3, word => word[0]);
 eqArrays(results3, ["t", "f", "l", "o", "e", "w", "i", "t", "s"]);
 
+module.exports = map;

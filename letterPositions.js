@@ -53,3 +53,5 @@ console.log(result2);
 console.log();
 const result3 = letterPositions("another string");
 console.log(result3);
+
+module.exports = letterPositions;
